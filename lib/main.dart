@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tobi_sigma/extensions/on_context.dart';
+import 'package:tobi_sigma/widget/card.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,12 +28,9 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          'Hello, World!',
-          style: context.textTheme.bodyLarge,
-        ),
+    return const Scaffold(
+      body: SafeArea(
+        child: LocationCard(),
       ),
     );
   }

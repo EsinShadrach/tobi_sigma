@@ -6,6 +6,12 @@
     <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleDisplayName</key>
     <string>Tobi Sigma</string>
+    <key>GoogleMapsApiKey</key>
+    <string>AIzaSyDMFY-q0lpqm6WdNg3jXhhPMEVq-UA3VhA</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Allow access to location</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Needs access to your location</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
